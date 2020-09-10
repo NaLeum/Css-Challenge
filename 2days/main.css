@@ -1,0 +1,95 @@
+@import 'reset.css';
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 483px;
+    height: 682px;
+    background-color: #F3F4F1;
+    box-shadow: 10px 10px 20px rgba(130, 130, 130, .4),
+        -10px -10px 20px rgba(255, 255, 255, 1);
+}
+
+.inner {
+    width: 426px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 37px;
+}
+
+.header .header__title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.4px solid #2B2C29;
+    padding-bottom: 10px;
+}
+
+.header .title {
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.header .date {
+    font-weight: 700;
+    font-size: 28px;
+    align-self: flex-end;
+}
+
+.header__summary {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    line-height: 1.3;
+
+}
+
+.header__summary .summary__columns {
+    display: flex;
+}
+
+.summary__columns ul {
+    margin-right: 45px;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.main .main__circles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.circle-blue {
+    background-color: #BBE1F1;
+}
+
+.circle-black {
+    background-color: #626465;
+}
+
+.circle-green {
+    background-color: #02A566;
+}

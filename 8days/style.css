@@ -1,0 +1,121 @@
+@import "reset.css";
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body > header{
+    width: 100%;
+    height: 35px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+header select {
+    border: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 5px;
+}
+header select:nth-child(1){
+    border-left: 0;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 350px;
+  
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+main section header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+main section article{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+article .image{
+   
+    height: 100%;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.image1{
+    background-image: url(https://image.ytn.co.kr/general/jpg/2017/1018/201710181100063682_d.jpg);
+}
+.image2{
+    background-image: url(https://img.khan.co.kr/news/2019/11/29/l_2019112901003607500286631.jpg);
+}
+.image3{
+    background-image: url(https://www.mirae-biz.com/news/photo/201801/36384_29794_2447.jpg);
+}
+.image4{
+    background-image: url(https://t1.daumcdn.net/liveboard/holapet/0e5f90af436e4c218343073164a5f657.JPG);
+}
+.image5{
+    background-image: url(https://image.dongascience.com/Photo/2019/11/10ed7359329fe87a2dc84921babb17e0.jpg);
+}
+.image6{
+    background-image: url(https://images.mypetlife.co.kr/content/uploads/2019/08/23154822/dog-tongue-2.jpg);
+}
+.image7{
+    background-image: url(https://image-notepet.akamaized.net/resize/620x-/seimage/20190514%2Fbad6dbc1ecd16b397a8dc2d3cc2d211b.png);
+}
+.image8{
+    background-image: url(https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/QsT/image/NSTeOeMe0MddpqlJ23FZV7hJGvg);
+}
+.image9{
+    background-image: url(https://rgo4.com/files/attach/images/2681740/084/801/007/22493025974da814d148c34bdb9a7f5f.jpg);
+}
+.image10{
+    background-image: url(https://lh3.googleusercontent.com/proxy/PiHTYn6ir9XswyQaIPNyIcHnISstWbPHSG5x9_W-mv7CRlK94HMbf0oRyzoEPVCkf0NW6feRkupr3tpbOc_wZlWcvMpsGcIjufS7yKezyZmxCnOI3BxOU37PVTJ_f4TNHTiLrLBTgZXJZr0GAh8oVZlfJZp2wpPUQw);
+}
+.image11{
+    background-image: url(https://image.kyobobook.co.kr/newimages/giftshop_new/goods/400/1255/hot1558263749670.jpg);
+}
+.image12{
+    background-image: url(https://image.kyobobook.co.kr/newimages/giftshop_new/goods/400/1248/hot1558263742719.jpg);
+}
+
+
+
+main section footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+main section footer a {
+    color: black;
+}
+
+

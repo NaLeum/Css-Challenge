@@ -1,0 +1,91 @@
+@import 'reset.css';
+
+.header {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    margin: 5% 0;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: 250px;
+}
+
+.grid-item {
+    display: grid;
+    place-content: space-between center;
+}
+
+.grid-item .item__header {
+    font-weight: 600;
+}
+
+.grid-item .item__footer {
+    font-size: 12px;
+}
+
+.grid-item .item__header,
+.grid-item .item__footer {
+    margin: 20px;
+    text-align: center;
+}
+
+.grid-item:nth-child(1) {
+    background-color: #BFBDA7;
+}
+
+.grid-item:nth-child(2) {
+    background-image: url(https://yt3.ggpht.com/a/AATXAJwbWDMyTqf3e5n5_FE-PUIGbypiArtpdc-Ee5Z-ng=s900-c-k-c0xffffffff-no-rj-mo);
+    background-size: cover;
+    background-position: center
+}
+
+.grid-item:nth-child(3) {
+    background-color: #FE4815;
+}
+
+.grid-item:nth-child(4) {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQq8_cy0bkmRIxwkvWdO21Ize_FnzkIT0KcCQ&usqp=CAU);
+    background-size: cover;
+    background-position: center
+}
+
+.grid-item:nth-child(5) {
+    background-color: #857F95;
+}
+
+.grid-item:nth-child(6) {
+    background-color: #D0FD71;
+}
+
+.grid-item:nth-child(7) {
+    background-image: url(https://i.ytimg.com/vi/1cn247O6EO8/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.grid-item:nth-child(8) {
+    background-color: #39AAFA;
+}
+
+.grid-item:nth-child(9) {
+    background-image: url(https://file3.instiz.net/data/cached_img/upload/2019/06/13/22/6c027f59e008596738c2e5af2bc26221.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.grid-item:nth-child(10) {
+    background-color: #42907A;
+}
+
+.grid-item:nth-child(11) {
+    background-image: url(https://img.animalplanet.co.kr/news/2020/02/21/700/z30z3t282764me46iyzo.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.grid-item:nth-child(12) {
+    background-color: #E3C3E5;
+}
